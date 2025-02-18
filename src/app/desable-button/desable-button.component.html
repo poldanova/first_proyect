@@ -1,0 +1,3 @@
+<button (click)="alternarHabilitado()">habilitado</button>
+<button [disabled]="!habilitado">desabilitado</button>
+<p>Estado del botón: {{ habilitado ? "Habilitado" : "Desabilitado" }}</p>
